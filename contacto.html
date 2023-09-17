@@ -12,7 +12,7 @@
 
     <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="src/logo de agua nutri.png">
 
-    <title>Recetas</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -50,43 +50,79 @@
 
     <main>
         <div class="container">
-            <h2>Recetas saludables</h2>
-            <div class="row">
-                <div class="col col --md--12 col --xl--6">
-                    <div>
-                        <h3 class="nutri">Chía pudding</h3>
-                        <h4>Ingredientes</h4>
-                        <li>1/2 vaso de leche o leche vegetal</li>
-                        <li>3 cucharadas soperas de semillas de chía</li>
-                        <li>1 cucharadita de extracto de vainilla</li>
-                        <li>Opcional: endulzante a gusto</li>
-                        <h4>Pasos a seguir</h4>
-                        <ol>
-                            <li>Dejar en remojo todos los ingredientes al menos 3 horas en la heladera.</li>
-                            <li>Revolver 3 o 4 veces en ese período de tiempo para que no se formen grumos.</li>
-                            <li>Se le puede agregar frutas arriba, granola, cereales, etcétera.</li>
-                        </ol>
-                        <img src="https://picsum.photos/400?random=1" class="img-fluid" alt="Imagen chia">
+            <h2>Contacto</h2>
+            <p class="formulario">Por cualquier duda o consulta te dejamos este espacio para que puedas contactarte con nosotras.</p>
+
+
+            <form action="method">
+                <div>
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre y apellido</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Juan Pérez">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="juan.perez@gmail.com">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Teléfono</span>
+                        <input type="number" aria-label="" class="form-control" placeholder="123456789">
+                    </div>
+
+                    <div class="form-check">
+                        <p>Género</p>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Masculino
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Femenino
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <p>Interesado/a en</p>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Consulta nutricional
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Antropometría
+                        </label>
+                    </div>
+
+                    <label for="exampleDataList" class="form-label">Consultorio</label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList"
+                        placeholder="Consultorio en el que estoy interesado/a...">
+                    <datalist id="datalistOptions">
+                        <option value="Córdoba">
+                        <option value="Villa Allende">
+                        <option value="Santa Rosa - La Pampa">
+                    </datalist>
+
+                    <div class="form-floating">
+                        <p>Comentarios</p>
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
                 </div>
-                <div class="col col --md--12 col --xl--6">
-                    <div>
-                        <h3 class="nutri">Panqueques de avena</h3>
-                        <h4>Ingredientes</h4>
-                        <li>1 huevo y 1 chorrito de leche o leche vegetal</li>
-                        <li>3 cucharadas soperas de avena</li>
-                        <li>1 cucharadita de polvo de hornear</li>
-                        <li>Opcional: endulzante a gusto</li>
-                        <h4>Pasos a seguir</h4>
-                        <ol>
-                            <li>Mezclar con minipimer o batidora todos los ingredientes hasta que no queden grumos.</li>
-                            <li>Precalentar una panquequera y colocarle una gotita de aceite.</li>
-                            <li>Cocinar vuelta y vuelta hasta que esten cocidos.</li>
-                        </ol>
-                        <img src="https://picsum.photos/400?random=2" class="img-fluid" alt="Imagen avena">
-                    </div>
-                </div>
-            </div>
+            </form>
+
+        </div>
     </main>
 
     <footer>
@@ -118,8 +154,8 @@
                 </div>
             </div>
         </div>
-</div>
-</footer>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

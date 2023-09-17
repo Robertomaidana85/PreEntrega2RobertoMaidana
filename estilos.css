@@ -75,6 +75,15 @@ p {
     text-align: justify;
 }
 
+form {
+    margin: 20px;
+    padding: 20px;
+}
+
+.formulario {
+    text-align: center;
+}
+
 footer {
     background-color: rgb(230, 248, 196);
     color: rgb(56, 56, 56);
