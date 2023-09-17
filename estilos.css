@@ -1,0 +1,72 @@
+header {
+    background-color: rgb(230, 248, 196);
+    display: end;
+    color:rgb(56, 56, 56)!important
+}
+
+
+a:link {
+    color:rgb(65, 64, 64) !important;
+    cursor: pointer !important;
+}
+
+a:visited {
+    color:rgb(153, 153, 153) !important;
+}
+
+a:hover {
+    color:rgb(214, 100, 163) !important;
+}
+
+a:active {
+    color: rgb(157, 199, 114) !important;
+}
+
+
+main {
+    background-color: rgb(247, 247, 247);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 20 px;
+    padding: 10px;
+}
+
+#hero {
+    background-color: pink;
+    margin: 30px;
+    padding: 30px;
+}
+
+#nosotras {
+    background-color: rgb(230, 248, 196);
+}
+
+
+#nutri1 {
+    align-items: center center;
+    text-align: center; 
+}
+
+#nutri2 {
+    align-items: center center;
+    text-align: center; 
+}
+
+.nutri{
+    background-color: rgb(218, 217, 217);
+}
+
+h4 {
+    background-color: rgb(241, 241, 241);
+}
+
+img p { 
+    display: block;
+    margin: 0% auto;
+}
+
+.direccion {
+    text-align: center;
+}
