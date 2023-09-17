@@ -84,6 +84,12 @@ form {
     text-align: center;
 }
 
+#boton {
+    background-color: pink;
+    color: rgb(56, 56, 56);
+}
+
+
 footer {
     background-color: rgb(230, 248, 196);
     color: rgb(56, 56, 56);
