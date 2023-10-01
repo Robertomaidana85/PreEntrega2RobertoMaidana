@@ -1,37 +1,37 @@
-/* line 1, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 8, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 header {
   background-color: #e6f8c4;
   display: end;
   color: #383838 !important;
 }
 
-/* line 9, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 16, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 a:link {
   color: #414040 !important;
   cursor: pointer !important;
 }
 
-/* line 14, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 21, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 a:visited {
   color: #999999 !important;
 }
 
-/* line 18, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 25, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 a:hover {
   color: #d664a3 !important;
 }
 
-/* line 22, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 29, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 a:active {
   color: #9dc772 !important;
 }
 
-/* line 29, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 36, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 main {
   background-color: #f7f7f7;
 }
 
-/* line 33, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 40, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 h1,
 h2,
 h3,
@@ -39,77 +39,116 @@ h4 {
   text-align: center;
   margin: 20 px;
   padding: 10px;
+  font-family: "Roboto" !important;
 }
 
-/* line 42, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 50, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 #hero {
   background-color: #ffe6ea;
   margin: 30px;
   padding: 30px;
 }
 
-/* line 48, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 56, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 #nosotras {
   background-color: #e6f8c4;
 }
 
-/* line 53, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 61, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 #nutri1 {
   align-items: center center;
   text-align: center;
 }
 
-/* line 58, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 66, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 #nutri2 {
   align-items: center center;
   text-align: center;
   margin: 30px;
 }
 
-/* line 64, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 72, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 .nutri {
   background-color: #dad9d9;
 }
 
-/* line 68, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 76, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 h4 {
   background-color: #f1f1f1;
 }
 
-/* line 72, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 80, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 img p {
   display: block;
   margin: 0% auto;
 }
 
-/* line 77, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 85, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+#galeria p {
+  margin: 20px;
+}
+
+/* line 89, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+#galeria .img-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  filter: grayscale(100) blur(1px);
+  transition: all 0.3s;
+  position: relative;
+  border-radius: 10px;
+}
+
+/* line 97, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+#galeria .img-fluid:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* line 105, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 .direccion {
   text-align: center;
+  font-family: "Roboto" !important;
 }
 
-/* line 81, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 110, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 p {
   text-align: justify;
+  font-family: "Roboto" !important;
 }
 
-/* line 85, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 115, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+ul,
+li {
+  font-family: "Roboto" !important;
+}
+
+/* line 120, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 form {
   margin: 20px;
   padding: 40px;
 }
 
-/* line 90, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 125, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 .formulario {
   text-align: center;
+  font-family: "Roboto" !important;
 }
 
-/* line 94, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 130, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 #boton {
   background-color: #cecccc;
   color: #383838;
+  transition: all .5s;
 }
 
-/* line 100, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+/* line 135, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
+#boton:hover {
+  background-color: #ffe6ea;
+}
+
+/* line 141, ../../../OneDrive - Rizobacter Argentina S.A/escritorio/Coderhouse/Proyecto 3/scss/estilos.scss */
 footer {
   background-color: #e6f8c4;
   color: #383838;
