@@ -42,8 +42,7 @@ main {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     text-align: center;
     margin: 20 px;
     padding: 10px;
@@ -87,7 +86,7 @@ h4 {
     margin-bottom: 30px;
     }
 
-h4 {
+h3 {
     background-color: rgb(241, 241, 241);
 }
 
@@ -136,12 +135,26 @@ form {
     padding: 20px;
 }
 
+.form-label {
+    margin-top: 15px;
+}
+
+.form-check {
+    margin-top: 15px; 
+}
+
+.form-floating {
+    margin-top: 15px; 
+}
+
 .formulario {
     text-align: center;
     font-family: $fuente-principal !important;
 }
 
+
 #boton {
+    margin-top: 15px;
     background-color: rgb(206, 204, 204);
     color: $color-terciario;
     transition: all .5s;
@@ -159,8 +172,4 @@ footer {
     justify-content: center;
     margin-top: 20px;
     padding: 20px;
-}
-
-.redes {
-    
 }
